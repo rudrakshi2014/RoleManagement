@@ -11,5 +11,13 @@
 // about supported directives.
 //
 //= require rails-ujs
+//= require jquery
 //= require turbolinks
+//= require datatables
+//= require twitter/bootstrap
 //= require_tree .
+
+$(function(){
+  /* Your JavaScript goes here... */
+  $('.carousel').carousel();
+});
